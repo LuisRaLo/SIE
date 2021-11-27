@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SIE APP</string>
+    <string name="title_activity_homebar">homebar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_captura">Captura</string>
+    <string name="menu_estructur">Estructura</string>
+    <string name="menu_edicion">Edición</string>
+    <string name="menu_asiste">Asistencia</string>
+    <string name="menu_Off">Captura OFFLINE</string>
+    <string name="menu_Carteo">Carteo</string>
+    <string name="menu_api">Función Desarrollador</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_altausa">Alta Usuario</string>
+    <string name="menu_acerca">Acerca De</string>
+    <string name="menu_redes">Redes Sociales</string>
+    <string name="menu_prep">COBRAR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mostrar">MostrarActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="facebook_app_id">1584371445093734</string>
+    <string name="fb_login_protocol_scheme">fb1584371445093734</string>
+
+</resources>

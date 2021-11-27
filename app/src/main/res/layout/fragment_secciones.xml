@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="25sp"
+    tools:context=".Menu.Estructura.Secciones">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dar de alta Sección Electoral"
+                android:textColor="@color/black"
+                android:fontFamily="@font/anton"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:gravity="center">
+            </TextView>
+
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Regional"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/RegS">
+            </AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Estatal"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/EstaS">
+            </AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Seccional"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/SeccS">
+            </AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Zona"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/ZonS">
+            </AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ruta"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/RutS">
+            </AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contactación total programada"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/ContactProg">
+            </AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contactación RDC programada"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/ContactRDC">
+            </AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contactación RDA programada"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/ContactRDA">
+            </AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Distrito Federal"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/DtoFs">
+            </AutoCompleteTextView>
+
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Distrito Local"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/DtoLs">
+            </AutoCompleteTextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Sección electoral"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/NomSecc">
+            </EditText>
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Lista Nominal"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/listNom">
+            </AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Responsable"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:backgroundTint="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/ResSec">
+            </AutoCompleteTextView>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botonestilo"
+                android:text="Dar de alta"
+                android:id="@+id/AltaS"
+                android:textColor="@color/ROSITA">
+            </androidx.appcompat.widget.AppCompatButton>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

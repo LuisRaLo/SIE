@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_inicio_white_24dp"
+            android:title="@string/menu_inicio" />
+        <item
+            android:id="@+id/mainCapter"
+            android:icon="@drawable/ic_create_white_24dp"
+            android:title="@string/menu_captura" />
+        <item
+            android:id="@+id/asiste"
+            android:icon="@drawable/ic_qr"
+            android:visible="false"
+            android:title="@string/menu_asiste" />
+        <item
+            android:id="@+id/off"
+            android:icon="@drawable/ic_off"
+            android:visible="false"
+            android:title="@string/menu_Off" />
+        <item
+            android:id="@+id/Carteo"
+            android:icon="@drawable/ic_lista"
+            android:visible="false"
+            android:title="@string/menu_Carteo" />
+        <item
+            android:id="@+id/prep"
+            android:icon="@drawable/ic_investigacion"
+            android:visible="false"
+            android:title="@string/menu_prep" />
+    </group>
+    <item
+        android:id="@+id/tituRedes"
+        android:title="Redes Sociales">
+        <menu>
+            <item
+                android:id="@+id/redes"
+                android:icon="@drawable/ic_social"
+                android:visible="false"
+                android:title="@string/menu_redes" />
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tituEstruc"
+            android:title="Estructura">
+            <menu>
+                <item
+                    android:id="@+id/menu_zonas"
+                    android:icon="@drawable/ic_demand_black"
+                    android:visible="false"
+                    android:title="Zonas"/>
+                <item
+                    android:id="@+id/nav_rutas"
+                    android:icon="@drawable/ic_demand_black"
+                    android:visible="false"
+                    android:title="Rutas"/>
+                <item
+                    android:id="@+id/nav_secciones"
+                    android:icon="@drawable/ic_demand_black"
+                    android:visible="false"
+                    android:title="Secciones"/>
+                <item
+                    android:id="@+id/nav_calles"
+                    android:icon="@drawable/ic_demand_black"
+                    android:visible="false"
+                    android:title="Calles"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tituAcercad"
+            android:title="Versión">
+            <menu>
+                <item
+                    android:id="@+id/acercaApp"
+                    android:icon="@drawable/ic_info"
+                    android:title="@string/menu_acerca" />
+            </menu>
+        </item>
+    </group>
+</menu>

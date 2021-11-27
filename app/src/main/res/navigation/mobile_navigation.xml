@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="cne.heba.sie.menu.Inicio.inicio"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_nav_home_to_mainCapter"
+            app:destination="@id/mainCapter" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainCapter"
+        android:name="cne.heba.sie.menu.Captura.Step.mainCap"
+        android:label="Captura"
+        tools:layout="@layout/fragment_main_cap" >
+        <action
+            android:id="@+id/action_mainCapter_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/menu_zonas"
+        android:name="cne.heba.sie.menu.Estructura.Zonas"
+        android:label="Captura"
+        tools:layout="@layout/fragment_zonas" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_rutas"
+        android:name="cne.heba.sie.menu.Estructura.Rutas"
+        android:label="Captura"
+        tools:layout="@layout/fragment_rutas" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_secciones"
+        android:name="cne.heba.sie.menu.Estructura.Secciones"
+        android:label="Captura"
+        tools:layout="@layout/fragment_secciones" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/acercaApp"
+        android:name="cne.heba.sie.menu.AcercaDE.acercade"
+        android:label="Actualización"
+        tools:layout="@layout/fragment_acercade" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/asiste"
+        android:name="cne.heba.sie.menu.Asistencia.controlAsiste"
+        android:label="Asistencia"
+        tools:layout="@layout/fragment_control_asiste" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/off"
+        android:name="cne.heba.sie.offline.MainOff"
+        android:label="Captura OFFLINE"
+        tools:layout="@layout/fragment_main_off" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/redes"
+        android:name="cne.heba.sie.menu.Redes.facebook"
+        android:label="Redes Sociales"
+        tools:layout="@layout/fragment_facebook" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/Carteo"
+        android:name="cne.heba.sie.menu.Carteo.Carteo"
+        android:label="Carteo"
+        tools:layout="@layout/fragment_carteo" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/prep"
+        android:name="cne.heba.sie.menu.Prep.prepmain"
+        android:label="Resultados Preliminares"
+        tools:layout="@layout/fragment_prepmain" >
+    </fragment>
+
+
+</navigation>

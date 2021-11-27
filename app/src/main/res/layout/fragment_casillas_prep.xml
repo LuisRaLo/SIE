@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".menu.Prep.casillasPrep">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="25dp"
+        android:orientation="vertical"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/anton"
+            android:gravity="center"
+            android:text="Ingrese la siguiente información"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/elecseccion"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:background="@drawable/spiner_customa"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                 />
+
+                <Spinner
+                    android:id="@+id/eleccasilla"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:background="@drawable/spiner_customa"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                     />
+
+        <TextView
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_pan"
+                android:layout_width="174dp"
+                android:layout_height="101dp"
+                android:layout_gravity="left"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <ImageView
+                android:id="@+id/img_pri"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="176dp"
+                android:layout_height="53dp"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:inputType="number"
+                android:id="@+id/pan"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/pri"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_prd"
+                android:layout_width="174dp"
+                android:layout_height="101dp"
+                android:layout_gravity="left"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <ImageView
+                android:id="@+id/img_pt"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="176dp"
+                android:layout_height="53dp"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/prd"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/pt"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_verde"
+                android:layout_width="174dp"
+                android:layout_height="101dp"
+                android:layout_gravity="left"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <ImageView
+                android:id="@+id/img_mc"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="176dp"
+                android:layout_height="53dp"
+                android:hint="Número de votos"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@+id/verde"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/mc"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_morena"
+                android:layout_width="174dp"
+                android:layout_height="101dp"
+                android:layout_gravity="left"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <ImageView
+                android:id="@+id/img_nv"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="176dp"
+                android:layout_height="53dp"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:inputType="number"
+                android:id="@+id/morena"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:hint="Número de votos"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:inputType="number"
+                android:id="@+id/na"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_pes"
+                android:layout_width="174dp"
+                android:layout_height="101dp"
+                android:layout_gravity="left"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <ImageView
+                android:id="@+id/img_rsp"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="176dp"
+                android:layout_height="53dp"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/pes"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/rsp"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_fuerzax"
+                android:layout_width="174dp"
+                android:layout_height="101dp"
+                android:layout_gravity="left"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <ImageView
+                android:id="@+id/img_vaxm"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="176dp"
+                android:layout_height="53dp"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/fuerzax"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/vaxmex"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_panpri"
+                android:layout_width="174dp"
+                android:layout_height="101dp"
+                android:layout_gravity="left"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <ImageView
+                android:id="@+id/img_panprd"
+                android:layout_width="174dp"
+                android:layout_height="101dp"
+                android:layout_gravity="left"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="176dp"
+                android:layout_height="53dp"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/panpri"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:layout_width="176dp"
+                android:layout_height="53dp"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/panprd"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_priprd"
+                android:layout_width="174dp"
+                android:layout_height="101dp"
+                android:layout_gravity="left"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <ImageView
+                android:id="@+id/img_ptmorenana"
+                android:layout_width="174dp"
+                android:layout_height="101dp"
+                android:layout_gravity="left"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="176dp"
+                android:layout_height="53dp"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/priprd"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:layout_width="176dp"
+                android:layout_height="53dp"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/ptmorenana"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_ptmorena"
+                android:layout_width="174dp"
+                android:layout_height="101dp"
+                android:layout_gravity="left"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <ImageView
+                android:id="@+id/img_ptna"
+                android:layout_width="174dp"
+                android:layout_height="101dp"
+                android:layout_gravity="left"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="176dp"
+                android:layout_height="53dp"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/ptmorena"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:layout_width="176dp"
+                android:layout_height="53dp"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/ptna"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_morena_na"
+                android:layout_width="174dp"
+                android:layout_height="101dp"
+                android:layout_gravity="left"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <ImageView
+                android:id="@+id/img_candidatosno"
+                android:layout_width="174dp"
+                android:layout_height="101dp"
+                android:layout_gravity="left"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="176dp"
+                android:layout_height="53dp"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/morena_na"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:layout_width="176dp"
+                android:layout_height="53dp"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/candidatosno"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_votos_nulos"
+                android:layout_width="174dp"
+                android:layout_height="101dp"
+                android:layout_gravity="left"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="176dp"
+                android:layout_height="53dp"
+                android:hint="Número de votos"
+                android:gravity="center"
+                android:id="@+id/votos_nulos"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+        </LinearLayout>
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="357dp"
+            android:layout_height="78dp"
+            android:fontFamily="@font/anton"
+            android:hint="Enviar planilla"
+            android:textSize="25sp"
+            android:id="@+id/envplani"
+            android:background="@color/ROSITA"
+            android:textColorHint="@color/white"></androidx.appcompat.widget.AppCompatButton>
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

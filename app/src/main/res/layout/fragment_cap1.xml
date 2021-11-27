@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!--
+        <Button
+            android:id="@+id/btncomprobar"
+            android:layout_width="291dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bordes"
+            android:elevation="8dp"
+            android:stateListAnimator="@null"
+            android:text="COMPROBAR"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:translationZ="10dp"
+
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.859" />
+            -->
+
+        <TextView
+            android:id="@+id/texcap1"
+            android:layout_width="417dp"
+            android:layout_height="60dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="Ingrese la información que se pide:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.086" />
+
+        <TextView
+            android:id="@+id/TitulCap"
+            android:layout_width="296dp"
+            android:layout_height="57dp"
+            android:backgroundTint="@color/material_on_primary_emphasis_medium"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="Captura de Datos"
+            android:textColor="@color/black"
+            android:textColorHint="@color/material_on_primary_emphasis_medium"
+            android:textSize="30dp"
+            android:textStyle="normal"
+
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.001" />
+
+        <EditText
+            android:id="@+id/CURP"
+            android:layout_width="353dp"
+            android:layout_height="59dp"
+            android:backgroundTint="@color/black"
+            android:drawableLeft="@drawable/ic_face_black_24dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="fill"
+            android:hint=" C.U.R.P."
+            android:imeOptions="actionNext"
+            android:inputType="textCapCharacters"
+            android:maxLength="18"
+            android:padding="15dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.28" />
+
+        <EditText
+            android:id="@+id/ClaveElec"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="354dp"
+            android:layout_height="53dp"
+            android:backgroundTint="@color/black"
+            android:drawableLeft="@drawable/ic_record_voice_over_black_18dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="fill"
+            android:hint=" Clave de elector"
+            android:imeOptions="actionDone"
+            android:inputType="textCapCharacters"
+            android:maxLength="18"
+            android:padding="15dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/doneAn"
+            android:layout_width="242dp"
+            android:layout_height="211dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.964"
+            app:lottie_autoPlay="false"
+            app:lottie_fileName="done.json"
+            app:lottie_imageAssetsFolder="assets"
+            app:lottie_loop="false"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
